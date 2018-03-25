@@ -21,29 +21,25 @@ public class Task_22_03_2018 {
         
         //Cadastro de pessoas
             //Cadastra Atendente
-            System.err.println("Atendente");
             Atendente atendente = new Atendente();
             atendente.cadastraAtendente("Maria José", "192.168.10.1", "Feminina", "Balconista");
-            atendente.exibeAtendente(atendente);
+            atendente.exibeAtendente();
 
             //Cadastra Veterinário
-            System.err.println("Veterinário");
             Veterinario veterinario = new Veterinario();
             veterinario.cadastraVeterinario("Francisco Barroso", "10.41.11.1", "Masculino", "Cirurgia em médios animais");
-           veterinario.exibeVeterinario(veterinario);
+            veterinario.exibeVeterinario();
         
         //Cadastro de Animais
             //Cadastro de Cachorro
-            System.err.println("Cachorro");
             Cachorro cachorro = new Cachorro();
-            cachorro.cadastraCachorro("Marley", 0.60, "Pastor Alemão");
-            cachorro.exibeCachorro(cachorro);
+            cachorro.cadastraCachorro("Marley", 24, "Pastor Alemão");
+            cachorro.exibeCachorro();
             
             //Cadastro de Gato
-            System.err.println("Gato");
             Gato gato = new Gato();
-            gato.cadastraGato("Spike", 0.23, "Siamês", "branco");
-            gato.exibeGato(gato);
+            gato.cadastraGato("Spike", 4.5, "Siamês", "branco");
+            gato.exibeGato();
             
         /*
             Fim do teste

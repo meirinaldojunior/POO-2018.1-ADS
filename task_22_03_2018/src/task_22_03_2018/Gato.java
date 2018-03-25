@@ -44,7 +44,8 @@ public class Gato extends Animal{
                 " Cor: "+gato.getCor();
     }
     
-    public void exibeGato(Gato gato){
-        System.out.println(this.getGato(gato));
+    public void exibeGato(){
+        System.err.println("Gato");
+        System.out.println(getGato(this));
     }
 }

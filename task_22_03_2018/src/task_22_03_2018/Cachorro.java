@@ -32,7 +32,8 @@ public class Cachorro extends Animal{
                 " Raça: "+cachorro.getRaca();
     }
     
-    public void exibeCachorro(Cachorro cachorro){
-        System.out.println(this.getCachorro(cachorro));
+    public void exibeCachorro(){
+        System.err.println("Cachorro");
+        System.out.println(getCachorro(this));
     }
 }

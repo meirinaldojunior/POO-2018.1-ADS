@@ -34,7 +34,8 @@ public class Atendente extends Pessoa{
                 " Área Atendimento: "+atendente.getAreaAtendimento();
     }
     
-    public void exibeAtendente(Atendente atendente){
-        System.out.println(this.getAtendente(atendente));
+    public void exibeAtendente(){
+        System.err.println("Atendente");
+        System.out.println(getAtendente(this));
     }
 }

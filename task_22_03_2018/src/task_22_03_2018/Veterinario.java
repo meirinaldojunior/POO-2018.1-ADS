@@ -34,7 +34,8 @@ public class Veterinario extends Pessoa{
                 " Área Atuação: "+veterinario.getAreaAtuacao();
     }
     
-    public void exibeVeterinario(Veterinario veterinario){
-        System.out.println(this.getVeterinario(veterinario));
+    public void exibeVeterinario(){
+        System.err.println("Veterinário");
+        System.out.println(getVeterinario(this));
     }
 }
