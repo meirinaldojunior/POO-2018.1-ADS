@@ -36,4 +36,16 @@ public class Cachorro extends Animal{
         System.err.println("Cachorro");
         System.out.println(getCachorro(this));
     }
+
+    @Override
+    public void emitirSom() {
+        //Poderia passar por parâmetro.
+        System.out.println("Latir");
+    }
+
+    @Override
+    public void mover() {
+        //Poderia passar por parâmetro.
+        System.out.println("Correr");
+    }
 }

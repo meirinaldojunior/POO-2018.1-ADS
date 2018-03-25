@@ -48,4 +48,16 @@ public class Gato extends Animal{
         System.err.println("Gato");
         System.out.println(getGato(this));
     }
+
+    @Override
+    public void emitirSom() {
+        //Poderia passar por parâmetro.
+        System.out.println("Miar");
+    }
+
+    @Override
+    public void mover() {
+        //Poderia passar por parâmetro.
+        System.out.println("Andar");
+    }
 }
